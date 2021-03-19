@@ -52,6 +52,8 @@ namespace array_katsiukou
             Console.WriteLine("\n\nКоличество локальных минимумов: " + Min);
 
             File.WriteAllText(path2, "Количество локальных минимумов = "+Min.ToString());
+
+            Console.ReadKey();
         }
     }
 }
